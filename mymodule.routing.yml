@@ -1,0 +1,7 @@
+mymodule.progress:
+  path: '/mymodule/progress'
+  defaults:
+    _controller: '\Drupal\mymodule\Controller\MyModuleController::getProgressBar'
+    _title: 'Progress bar example'
+  requirements:
+    _permission: 'access content'
